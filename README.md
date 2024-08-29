@@ -20,9 +20,9 @@ The game is implemented using Java, focusing on backend logic with a text-based 
 
 ### **Design Patterns Used:**
 
-- Factory Pattern: The Factory pattern is utilized to create instances of enemies and player characters. This pattern allows the game to generate different types of units dynamically, ensuring that the creation logic is centralized and easily manageable. By using a factory, the game can easily extend the types of characters and enemies without modifying existing code, thus adhering to the Open/Closed Principle.
+- **Factory Pattern**: The Factory pattern is utilized to create instances of enemies and player characters. This pattern allows the game to generate different types of units dynamically, ensuring that the creation logic is centralized and easily manageable. By using a factory, the game can easily extend the types of characters and enemies without modifying existing code, thus adhering to the Open/Closed Principle.
 
-- Visitor Pattern: The Visitor pattern is employed to handle interactions between units, such as combat or other interactions. This pattern allows you to define new operations without changing the classes of the elements on which it operates.
+- **Visitor Pattern**: The Visitor pattern is employed to handle interactions between units, such as combat or other interactions. This pattern allows you to define new operations without changing the classes of the elements on which it operates.
 
 ## **How to Run the Game**
 
