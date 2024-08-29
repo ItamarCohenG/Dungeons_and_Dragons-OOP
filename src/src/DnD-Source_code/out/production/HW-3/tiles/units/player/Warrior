@@ -1,0 +1,81 @@
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+import java.util.List;
+import java.util.ArrayList;
+import game.Position;
+import tiles.units.enemies.Monster;
+import utilities.Points.Cooldown;
+import utilities.Points.Exp;
+
+class WarriorTest {
+
+    private Warrior warrior;
+    private Cooldown abilityCooldown;
+    private List<Enemy> enemies;
+
+    @BeforeEach
+    void setUp() {
+        abilityCooldown = new Cooldown(3);
+        warrior = new Warrior('@', "Hero", 100, 20, 10, abilityCooldown, new Position(0, 0));
+        enemies = new ArrayList<>();
+
+        // Adding some enemies for testing
+        enemies.add(new Monster('M', "Monster1", 50, 10, 5, 2, new Exp(50), null));
+        enemies.add(new Monster('M', "Monster2", 60, 12, 6, 3, new Exp(60), null));
+    }
+
+    @Test
+    void testInitialization() {
+        assertEquals('@', warrior.getCharTile());
+        assertEquals("Hero", warrior.getName());
+        assertEquals(100, warrior.getHealthCapacity());
+        assertEquals(20, warrior.getAttackPoints());
+        assertEquals(10, warrior.getDefensePoints());
+    }
+
+    @Test
+    void testCanCastAbility() {
+        assertTrue(warrior.canCastAbility());
+        warrior.castSpecialAbility(enemies);
+        assertFalse(warrior.canCastAbility());
+    }
+
+    @Test
+    void testCastSpecialAbility_NoTargetsInRange() {
+        warrior.castSpecialAbility(enemies);
+        assertEquals(100, warrior.getCurrentHealth()); // Health should remain the same
+        assertEquals(50, enemies.get(0).getCurrentHealth()); // Enemy health should remain the same
+        assertEquals(60, enemies.get(1).getCurrentHealth()); // Enemy health should remain the same
+    }
+
+    @Test
+    void testCastSpecialAbility_TargetInRange() {
+        // Move the warrior closer to the enemies
+        warrior.setPosition(new Position(1, 1));
+        warrior.castSpecialAbility(enemies);
+        assertTrue(warrior.getCurrentHealth() > 100); // Health should increase
+        assertTrue(enemies.get(0).getCurrentHealth() < 50 || enemies.get(1).getCurrentHealth() < 60); // At least one enemy should take damage
+    }
+
+    @Test
+    void testLevelUp() {
+        warrior.gainExperience(1000); // Assuming 1000 XP is enough to level up
+        assertEquals(2, warrior.getLevel());
+        assertEquals(130, warrior.getHealthCapacity()); // Health should increase
+        assertEquals(40, warrior.getAttackPoints()); // Attack points should increase
+        assertEquals(12, warrior.getDefensePoints()); // Defense points should increase
+    }
+
+    @Test
+    void testAttack() {
+        Monster monster = new Monster('M', "Monster", 50, 10, 5, 2, new Exp(50), null);
+        warrior.attack(monster);
+        assertTrue(monster.getCurrentHealth() < 50); // Monster's health should decrease
+    }
+
+    @Test
+    void testGetExperienceValue() {
+        assertEquals(0, warrior.getExperience().getCurrent());
+    }
+}

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="HW-3:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10f18007-1a9d-42d2-a17a-82f457af0a9c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="autoscrollToSource" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2kHGpyaD3X5UNBmWinUsbS2kzMi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.InputFileChecker.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.EnemyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HunterTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MonsterTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TrapTest.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/itamar/Desktop/Sapir/OOP/Assigments/Assigments 3/hw3 - Itamar Cohen/hw3 - Code/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="tiles.units" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="game" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="System" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="InputFileChecker" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="game.InputFileChecker" />
+      <module name="HW-3" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;$PROJECT_DIR$/levels_dir/level4.txt&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="HW-3" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;$PROJECT_DIR$/levels_dir&quot;" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.InputFileChecker" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10f18007-1a9d-42d2-a17a-82f457af0a9c" name="Changes" comment="" />
+      <created>1722933275174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722933275174</updated>
+      <workItem from="1722933276192" duration="2422000" />
+      <workItem from="1723048607972" duration="600000" />
+      <workItem from="1723142705813" duration="9110000" />
+      <workItem from="1723309941359" duration="7401000" />
+      <workItem from="1723626211656" duration="1959000" />
+      <workItem from="1723628582261" duration="15277000" />
+      <workItem from="1723659814395" duration="1870000" />
+      <workItem from="1723693995125" duration="81000" />
+      <workItem from="1723910378915" duration="544000" />
+      <workItem from="1723910927175" duration="9655000" />
+      <workItem from="1724156761163" duration="6511000" />
+      <workItem from="1724173910734" duration="1622000" />
+      <workItem from="1724176267211" duration="9021000" />
+      <workItem from="1724188115785" duration="19133000" />
+      <workItem from="1724208013972" duration="26452000" />
+      <workItem from="1724262039905" duration="7421000" />
+      <workItem from="1724311601640" duration="10833000" />
+      <workItem from="1724322520322" duration="6797000" />
+      <workItem from="1724356894847" duration="33000" />
+      <workItem from="1724695658097" duration="6838000" />
+      <workItem from="1724758413808" duration="5081000" />
+      <workItem from="1724765677342" duration="24122000" />
+      <workItem from="1724845901484" duration="1332000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
