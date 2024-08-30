@@ -8,7 +8,7 @@ import java.io.IOException;
 /*
     * This class is used to check the input file for the game.
     * It reads the file and prints the characters in it.
-    * We had a TOUGH time reading the files so this is like a test (;
+    * I had a TOUGH time reading the files so this is like a test (;
  */
 public class InputFileChecker {
     public static void main(String[] args) {
