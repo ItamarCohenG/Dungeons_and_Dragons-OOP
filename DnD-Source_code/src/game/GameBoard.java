@@ -60,7 +60,7 @@ public class GameBoard {
 
     public Optional<Tile> get(Position p) {
         if (isValid(p)) {
-            return Optional.ofNullable(board[p.getY()][p.getX()]); // תיקון בשורת מיקום
+            return Optional.ofNullable(board[p.getY()][p.getX()]); 
         } else {
             return Optional.empty();
         }
