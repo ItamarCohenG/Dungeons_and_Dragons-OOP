@@ -138,8 +138,8 @@ public class GameBoard {
             Position p2 = tile2.getPosition();
             tile1.setPosition(p2);
             tile2.setPosition(p1);
-            board[p1.getY()][p1.getX()] = tile2; // תיקון בשורת מיקום
-            board[p2.getY()][p2.getX()] = tile1; // תיקון בשורת מיקום
+            board[p1.getY()][p1.getX()] = tile2; 
+            board[p2.getY()][p2.getX()] = tile1; 
         }
     }
 
